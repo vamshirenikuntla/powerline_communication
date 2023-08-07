@@ -1,0 +1,35 @@
+* Aplications of power line communication
+-> Home Networking
+-> smart grid
+-> street Lightning
+-> Indrustial Automation
+-> Transportation(Ev charging stations to communicate and billing between the charging station and the vehicle)
+
+* MAP messages(Medium Access Protocol Messages)
+-> MAP messages are fundamental to managing access to the communication medium, ensuring that devices can transmit data without causing collisions.
+-> MAP messages convey critical information, such as time slots, transmission schedules, and channel reservations, enabling devices to coordinate their transmissions effectively.
+-> Devices within a network contend for MAP slots, often using mechanisms like contention-based protocols like CSMA/CA to access the communication medium in an organized manner.
+-> MAP messages can also include QoS parameters, allowing devices to prioritize certain types of traffic like voice and videos.
+
+* TXOPs (Transmit Opportunity)
+-> TXOP refers to a designated period during which a wireless device has the exclusive opportunity to transmit data without being interrupted. It enhances communication efficiency and reduces overhead.
+-> TXOP is a concept within the IEEE 802.11 wireless standard, specifically in the context of the Enhanced Distributed Channel Access (EDCA) mechanism.
+-> Different types of traffic, categorized by priorities (e.g., voice, video, best effort), contend for TXOPs based on their access category parameters, such as contention window size and backoff mechanism.
+-> During contention, devices select a random backoff time before attempting to access a TXOP. This process helps reduce collisions and ensures fair access among contending devices.
+
+* Network Admission
+-> Network admission involves determining which devices are allowed to join a network based on predefined criteria, including security policies, device capabilities, and resource availability.
+-> During network admission, devices undergo authentication to verify their identity and authorization to assess whether they meet the network's requirements.
+-> Network admission helps manage available network resources by controlling the number of devices that can access the network simultaneously, thus maintaining optimal performance.
+-> Network admission may also consider the quality of service requirements of incoming devices to ensure that the network can meet their communication needs.
+
+* Domain Master 
+-> The Domain Master acts as a central control point within a power line communication domain, overseeing network operations and managing communication among devices.
+-> The Domain Master maintains synchronization among devices, ensuring that transmissions occur at specific times or within specific time slots to minimize interference and collisions.
+-> It handles tasks such as device registration, address assignment, and overall network configuration.
+
+* End points :
+-> End Points are devices that connect to the power line communication network. They can be anything from computers and routers to smart appliances and sensors.
+-> End Points initiate and respond to data transmissions within the network, adhering to the coordination and rules set by the Domain Master.
+-> End Points receive incoming data, process it, and take appropriate actions based on the application or system requirements.
+-> End Points may have different roles within the network, such as data sources, sinks, or relays, depending on the specific application.
